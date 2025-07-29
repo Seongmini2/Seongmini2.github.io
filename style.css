@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+nav a {
+  color: #aaa;
+  text-decoration: none;
+}
+nav a.active, nav a:hover {
+  color: #fff;
+}
+.hero {
+  text-align: center;
+  margin-top: 100px;
+}
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 16px;
+  color: #ccc;
+}
+.games {
+  text-align: center;
+  padding: 80px 30px;
+}
+.games h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+.game-card {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 320px;
+}
+.game-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.game-card h3 {
+  margin: 15px 0 5px;
+}
+.game-card p {
+  font-size: 14px;
+  color: #bbb;
+}
+.more-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.more-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  color: #888;
+  height: 180px;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 14px;
+}
